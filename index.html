@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TV Show Search</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" type="text/css" />
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js" defer></script>
+    <script src="app.js" defer></script>
+  </head>
+
+  <body>
+    <main>
+      <div id="search">
+        <h1>TV Show Search</h1>
+        <form id="searchForm">
+          <input type="text" placeholder="TV Show Title" name="query" />
+          <button>Search</button>
+        </form>
+      </div>
+      <div id="results"></div>
+    </main>
+  </body>
+</html>
